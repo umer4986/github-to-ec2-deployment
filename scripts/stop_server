@@ -1,0 +1,4 @@
+#!/bin/bash
+if pgrep apache2 >/dev/null; then
+    service apache2 stop
+fi
